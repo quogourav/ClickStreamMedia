@@ -107,12 +107,6 @@ h1, h2, h3 { font-weight: 800; line-height: 1.12; letter-spacing: -0.03em; }
 .dash__ico--t { background: linear-gradient(135deg, #14b8a6, #5eead4); }
 @keyframes float { 50% { transform: translateY(-10px); } }
 
-/* ========== Ticker ========== */
-.ticker { background: var(--ink); color: #fff; overflow: hidden; padding: 16px 0; }
-.ticker__track { display: flex; gap: 44px; width: max-content; animation: ticker 34s linear infinite; font-weight: 700; font-size: .9rem; letter-spacing: .14em; }
-.ticker__track span::after { content: "●"; margin-left: 44px; color: var(--teal); font-size: .6rem; vertical-align: middle; }
-@keyframes ticker { to { transform: translateX(-50%); } }
-
 /* ========== Sections ========== */
 .section { padding: 100px 0; }
 .section--ink { background: radial-gradient(700px 400px at 90% 0%, rgba(124,92,255,.25), transparent 70%), var(--ink); color: #fff; }
@@ -241,7 +235,11 @@ h1, h2, h3 { font-weight: 800; line-height: 1.12; letter-spacing: -0.03em; }
 }
 @media (prefers-reduced-motion: reduce) {
   html { scroll-behavior: auto; }
-  .dash__card--float, .ticker__track { animation: none; }
+  .dash__card--float { animation: none; }
   .dash__line { animation: none; stroke-dashoffset: 0; }
   .reveal { opacity: 1; transform: none; transition: none; }
 }
+
+/* ========== Form spam trap ========== */
+.hp { position: absolute; left: -9999px; width: 1px; height: 1px; opacity: 0; }
+.form .btn:disabled { opacity: .6; cursor: wait; transform: none; }
