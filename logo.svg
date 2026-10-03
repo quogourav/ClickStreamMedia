@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 250 56" role="img" aria-label="Clickstream Media">
+  <defs><linearGradient id="g" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#4f6bff"/><stop offset="1" stop-color="#14b8a6"/></linearGradient></defs>
+  <rect x="2" y="6" width="44" height="44" rx="13" fill="url(#g)"/>
+  <path d="M10 36c6 0 6-12 12-12s6 12 12 12" fill="none" stroke="#fff" stroke-width="3.5" stroke-linecap="round" transform="translate(1 0)"/>
+  <circle cx="37" cy="19" r="4" fill="#fff"/>
+  <text x="58" y="29" font-family="Plus Jakarta Sans, Arial, sans-serif" font-size="22" font-weight="800" fill="#0f172a" letter-spacing="-0.5">Clickstream</text>
+  <text x="59" y="46" font-family="Plus Jakarta Sans, Arial, sans-serif" font-size="12" font-weight="600" letter-spacing="4.5" fill="#4f6bff">MEDIA</text>
+</svg>
